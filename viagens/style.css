@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    /*ativa a propriedade de alinhamento*/
+    flex-direction: row;
+    /*coloca os elementos na horizontal*/
+}
+
+li {
+    list-style: none;
+    /*remove os pontos das lista*/
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#logo {
+    height: 120px;
+    width: 120px;
+}
+
+.btn-logo {
+    width: 70px;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #EB662B;
+    border: 1px solid #EB662B;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.banner {
+    height: 800px;
+    width: 1750px;
+    background-image: url("./assents/banner.png");
+    /*ele adiciona uma imagem como fundo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.titúlo-banner{
+    font-size: 40px;
+   font-weight: bold;
+   color: #ffff;
+}
+.sub-titúlo{
+    color: #ffff;
+    font-size: 20px;
+}
+.caixa-banner{
+    width: 700px;
+    height: 80px;
+    background-color: #ffff;
+}
+.estrutura-caixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.caixa-titúlo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto-banner{
+    width: 100px;
+}
