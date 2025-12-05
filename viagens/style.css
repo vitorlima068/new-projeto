@@ -46,6 +46,10 @@ nav {
 
 }
 
+.texto-logor {
+    color: darkgrey;
+}
+
 .banner {
     height: 800px;
     width: 1750px;
@@ -57,45 +61,91 @@ nav {
     align-items: center;
     padding: 10px;
 }
-.titúlo-banner{
+
+.titúlo-banner {
     font-size: 40px;
-   font-weight: bold;
-   color: #ffff;
+    font-weight: bold;
+    color: #ffff;
 }
-.sub-titúlo{
+
+.sub-titúlo {
     color: #ffff;
     font-size: 20px;
 }
-.caixa-banner{
+
+.caixa-banner {
     width: 700px;
     height: 80px;
     background-color: #ffff;
+    padding: 10px;
+    border-radius: 15px;
 }
-.estrutura-caixa{
+
+.estrutura-caixa {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
 
 }
-.section-banner{
+
+.section-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-.caixa-titúlo{
+
+.caixa-titúlo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.texto-banner{
+
+.texto-banner {
     width: 100px;
+}
+
+.btn {
+    width: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #EB662B;
+    border: 1px solid #EB662B;
+    color: aliceblue;
+}
+
+.molde-caixa {
+    padding: 70px;
+}
+
+.texto-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.titulo-info {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-info {
+    font-size: 15px;
+    width: 160px;
 }
