@@ -151,6 +151,7 @@ nav {
     flex-direction: column;
     width: 280px;
     height: 130px;
+
 }
 
 .titulo-info {
@@ -162,24 +163,105 @@ nav {
     font-size: 16px;
     width: 280px;
 }
-.icone{
+
+.icone {
     padding: 10px;
     height: 80px;
+
+    width: 60px;
 }
-.titulo-paises{
+
+.titulo-paises {
     font-size: 15px;
     font-weight: bold;
 }
-.info-paises{
+
+.info-paises {
     font-size: 13px;
 }
-.texto-paises{
+
+.texto-paises {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
     width: 130px;
     height: 50px;
 }
 
+.paises {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.caixa-populares {
+    width: 300px;
+    height: 388px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.img-populares {
+    width: 278px;
+    height: 198, 56px;
+    padding: 10px;
+}
+
+.pais {
+    font-size: 12px;
+    color: gray;
+}
+
+.info-p {
+    font-size: 15, 88px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-principal {
+    padding: 10px;
+}
+
+.texto-pais2 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-valor {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 55px;
+
+}
+
+.valor {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.populares{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
